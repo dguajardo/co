@@ -1,7 +1,7 @@
 class CarInsurance
 	products = []
 
-	def updateprice 
+	def update_price 
 	end
 	 
 end	
