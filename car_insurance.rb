@@ -1,7 +1,15 @@
+require_relative 'product.rb'
+
 class CarInsurance
-	products = []
+	attr_accessor :products
+
+	def initialize products = []
+		@products = products
+	end	
 
 	def update_price 
-	end
-	 
-end	
+		products.each { |p|
+			
+		}
+	end	
+end
